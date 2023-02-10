@@ -1,1 +1,1 @@
-
+delta_timer.py is a gadget which acts as a timer for measuring the performance of the code
