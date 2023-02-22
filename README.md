@@ -7,7 +7,7 @@ What made it different is that this code leverages the OpenCV DNN backend as the
 
 In order to do so, an onnx-format weights file was converted from the pytorch's dot-pt-format which was taken by the transfer learning proccess. From this standpoint, it is an indepentent app for detecting pill bottles. 
 
-Another important step that this app has made is that it developed a pipeline which has figured out the whole development processs from capturing training photos, labeling and resizeing the training data which comply with the requirement of Yolov5. The labeling tool that has been used in this case particularly is not the official recommended Roboflow annotator, instead, The Label Studio which is an open-sourced application has been used to label the dataset while still protecting the personal training data from leaking to public, which is the typiucal drawback of Roboflow.  
+Another important step that this app has made is that it developed a pipeline which has figured out the whole development processs from capturing training photos, labeling and resizeing the training data which comply with the requirement of Yolov5. The labeling tool that has been used in this case particularly is not the official recommended Roboflow annotator, instead, The Label Studio which is an open-sourced application has been used to label the dataset while still protecting the personal training data from leaking to public, which is the typical drawback of Roboflow.  
 
 ![home_1676003582](https://user-images.githubusercontent.com/99988506/218037589-9625cb12-f613-4b45-b31b-fb9bb86078d5.jpg)
 
