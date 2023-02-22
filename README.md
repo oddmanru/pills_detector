@@ -1,6 +1,5 @@
 # Pill Bottle detector
-Technically this is a pill bottle detector which was derived from a custom object detector trained by yolov5. Identifying the pill bottles dedicated for family members is challenging, particularly when people are getting old. E.g, they often forget where the bottle is, or they cannot ensure if the pill bottle is dedicated for someone when the bottles were acquired from the same pharmacy although they were labeled differently. 
-Applying one of the state-of-the-art object detectors i.e yolov5 to train a custom object detector might help people address this issue.   
+Technically this is a pill bottle detector which was derived from a custom object detector trained by yolov5. Identifying the pill bottles dedicated for family members is challenging, particularly when people are getting old. E.g, they often forget where the bottle is, or they cannot ensure if the pill bottle is dedicated for someone when the bottles were acquired from the same pharmacy although they were labeled differently. Applying one of the state-of-the-art object detectors i.e yolov5 to train a custom object detector might help people address this issue.   
 
 Therefore, this code snippet is aimed at training and testing a custom object detection process which distinguish different pill bottles even though they sometimes look alike.     
 
