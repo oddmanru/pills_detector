@@ -3,7 +3,7 @@ Technically this is a pill bottle detector which was derived from a custom objec
 
 Therefore, this code snippet is aimed at training and testing a custom object detection process which distinguishes different pill bottles even though they sometimes look alike.     
 
-What made it different is that this code leverages the OpenCV DNN backend as the Deep Learning backbone. It works in a way that is different than a regular YOLOv5 detector, which typically uses the detect.py code developed by Ultralytics.  
+What made it different is that this code leverages the OpenCV DNN backend as the Deep Learning backbone. It works in a way that is different than a regular YOLOv5 detector, which typically uses the detect.py developed by Ultralytics.  
 
 an onnx-format weights file was converted from the pytorch's dot-pt-format which was taken by the transfer learning proccess. From this standpoint, it is an indepentent app for detecting pill bottles. 
 
